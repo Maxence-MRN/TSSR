@@ -35,4 +35,6 @@ Et se décline sur multiples supports :
 - Visual Studio Source
 - Obsidian
 
+**Dévelopemment et maintien de connaissances**
 ! Les Cheats Sheets sont viables pour développer des concepts synthétisés si incompréhension. !
+Passage de Mooc sur [OpenClassroom](https://openclassrooms.com/fr/courses?categories=Syst%C3%A8mes%20%26%20R%C3%A9seaux) et sur [MyMOOC](https://www.my-mooc.com/fr/categorie/reseaux-informatiques)
