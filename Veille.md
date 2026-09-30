@@ -2,7 +2,7 @@
  
 ### Qu'est-ce que la veille technologique ?
 
-La veille technologique est une forme de veille opérationnelle, transposée en IT. 
+La veille technologique est une forme de veille ou alerte opérationnelle, transposée en IT. 
 
 Dans ce sens, elle consiste en un ensemble d'action visant **au maintien, au développement et à l'actualisation** des compétences et connaissances du monde de l'IT.
 
