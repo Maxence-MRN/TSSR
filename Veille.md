@@ -20,6 +20,8 @@ Et se décline sur multiples supports :
 - Flux RS : micronews
 - Flux RSS, concentrés par agrégateurs de flux : Feedly ou Inoreader
 
+---
+
 ## Anglais en s'amusant
 - [KoF](https://www.kingdomofloathing.com/game.php)
 
