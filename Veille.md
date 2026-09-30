@@ -29,6 +29,7 @@ Et se décline sur multiples supports :
 - [équipement bon plan](https://www.minimachines.net/)
 - [ANSSI](https://cyber.gouv.fr/)
 - LinkedIn
+- ITConnect
 
 ## Chaines YT
 - Xavki
