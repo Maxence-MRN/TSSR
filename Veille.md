@@ -32,6 +32,7 @@ Et se décline sur multiples supports :
 - [ANSSI](https://cyber.gouv.fr/)
 - LinkedIn
 - ITConnect
+- Reddit : r/sysadmin
 
 ## Chaines YT
 - Xavki
