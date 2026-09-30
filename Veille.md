@@ -22,3 +22,4 @@ En pratique, cela implique de ne pas se laisser dépasser par **l'évolution des
 ## Prise de Note
 - Editeur de format MD type MarkdownView
 - Visual Studio Source
+- Obsidian
