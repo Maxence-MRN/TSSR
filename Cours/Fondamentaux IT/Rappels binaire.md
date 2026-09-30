@@ -7,7 +7,7 @@ Le 0 et le 1 sont la plus petite unité de base tolérée par les ordinateurs, a
 Outre une valeur numérique, ces deux chiffres sont surtout des *symboles* où *0=False* et *1=True*  
 ---
 ## Calcul Base 2##
-Tout nombre élevé à la puissance 0 = 1 (Pas de débat)  
+Tout nombre élevé à la puissance 0 = 1 (Pas de débat, sauf)  
 Puis :  
 - 2^1=2
 - 2^2=4
@@ -19,7 +19,7 @@ Puis :
 - 2^8=256
 - 2^9=512
 - 2^10=1024  
-*ETC...* Ce qui mène à comprendre que toutes les notions en informatiques sont liées à ces multiples.  
+*Etc...* Ce qui mène à comprendre que toutes les notions en informatiques sont liées à ces multiples.  
 *Exemple :*
 - Affichage écran : 1024x512
 - Résolution : 2048p
@@ -29,7 +29,7 @@ Puis :
 ---
 ## Les Octets ##  
 
-Un octet vaut 8 bits, et s'exprime en *Bytes* (unité B, à ne pas confondre avec bits, soit b)  
+Un octet vaut 8 bits, et s'exprime en **Bytes** (unité B, à ne pas confondre avec bits, soit b)  
 
 
 ### Tableau de conversion d'un Octet : ###
