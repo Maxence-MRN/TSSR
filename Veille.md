@@ -18,7 +18,7 @@ Et se décline sur multiples supports :
 - Numérique : Portails, Webzine
 - Video ou audio : Podcasts, YT
 - Flux RS : micronews
-- Flux RSS
+- Flux RSS, concentrés par agrégateurs de flux : Feedly ou Inoreader
 
 ## Anglais en s'amusant
 - [KoF](https://www.kingdomofloathing.com/game.php)
