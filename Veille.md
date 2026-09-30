@@ -30,6 +30,7 @@ Et se décline sur multiples supports :
 ## Chaines YT
 - Xavki
 - ITConnect
+- Geoffrey Vaquette
 
 ## Prise de Note
 - Visual Studio Source
