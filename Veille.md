@@ -32,8 +32,7 @@ Et se décline sur multiples supports :
 - ITConnect
 
 ## Prise de Note
-- Editeur de format MD type MarkdownView
 - Visual Studio Source
 - Obsidian
 
-Les Cheats Sheets sont viables pour développer des concepts synthétisés si incompréhension.
+! Les Cheats Sheets sont viables pour développer des concepts synthétisés si incompréhension. !
