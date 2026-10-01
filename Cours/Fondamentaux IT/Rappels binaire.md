@@ -6,7 +6,7 @@ Hexadécimale = base 16 (= de 0 à 9, puis lettres de A à F)
 Le 0 et le 1 sont la plus petite unité de base tolérée par les ordinateurs, appelés *bits (=contraction de binary digits)* **et dont l'unité est le b**  
 Outre une valeur numérique, ces deux chiffres sont surtout des *symboles* où *0=False* et *1=True*  
 ---
-## Calcul Base 2##
+## Calcul Base 2 ##
 Tout nombre élevé à la puissance 0 = 1 (Pas de débat, sauf)  
 Puis :  
 - 2^1=2
@@ -95,10 +95,18 @@ Ainsi, pour convertir 5C en décimale, on reprend la même matrice que précéde
 - 80+12
 - 92  
 
-*Une règle universelle existe :*
+*Nota : Dans une @MAC, il y a 6 octets de 8 bits, soit 48b par @MAC*
+
+**Une règle universelle existe :**
 - Soit le nombre 999 en base N
   - son résultat en base 10 sera :
   - 9xN^2 + 9xN^1 + 9xN^0 (car 3 chiffre, donc on pousse à la 3e colonne de la matrice pour exposant 2)  
+
+## Les Couleurs ##  
+
+Les couleurs sont codées en hexa sur 3 octets selon le code RGB (Red Green Blue).  
+*Exemple* : #FF00FF (pour le violet, car RED et BLUE sont au max, et rien en vert)  
+De fait, le blanc est #FFFFFF car cumule l'ensemble des couleurs. Le noir est donc #000000.  
 
 ## Algèbre Binaire ##
 
