@@ -141,7 +141,7 @@ Le A est le point d'entrée d'une information dans un programme qui appliquera u
 | 1 | 1 | 1 |  
 
 Les deux points d'entrées A et B génèreront une sortie S en fonction de la véracité de l'information. On est capable par ce mot-clef d'influer sur le traitement de deux informations :  
-**L'information est vraie en sortie UNIQUEMENT si A et B sont vraies**  
+**L'information est vraie en sortie UNIQUEMENT si A et B sont vraies (exemple de la machine à café)**  
 
 ### Les tables restantes, traduites en phrases simples###  
 
