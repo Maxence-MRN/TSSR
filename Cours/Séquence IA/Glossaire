@@ -1,0 +1,58 @@
+**#Glossaire IA#**
+---
+- *Agent* : Un système autonome capable de prendre des décisions et d'executer des actions pour atteindre des objectifs définis. Peut employer des des outils externes , adapter sa stratégie et enchaîner plusieurs étapes sans supervision humaine constante.
+- *Algorithme* : Suite finie et structurée d'instructions ou de règles mathématiques  destinées à résoudre un problème ou une tâche précise. EN IA, définit la méthode selon laquelle le système traite les données d'entrées, identifie les patterns, et ajuste ses paramètres pour produire un résultat. 
+- *Alignement* : Ensemble des techniques et méthodes visant à s'assurer qu'un système IA agit conformément aux intentions, valeurs morales, sécurité et intérêts des humains. Le but étant d'éviter qu'un modèle ne développe des comportements indésirables, trompeurs ou dangereux pour atteindre un objectif assigné.
+- *API* : Application Programming Interface / Interface de programmation d'application - Un ensemble de règles, de protocoles et de définitions permettant à deux applications de communiquer. Elle permet aussi aux développeurs d'intégrer les capacités d'un modèle distant directement dans leurs propres logiciels ou sites Web, sans héberger ou exécuter le modèle dans leurs propres servers.
+- *Apprentissage* : Processus par lequel un modèle IA analyse un set de données pour adapter ses poids et apprendre la réalisation d'une tâche. Durant cette phase, l'algorithme compare ses prédictions avec les résultats attendus et corrige ses erreurs jusqu'à obtenir un niveau de précision satisfaisant.
+- *Auto-apprentissage* : Méthode d'apprentissage dans laquelle le modèle génère lui-même ses propres étiquettes à partir de données brutes, sans nécessiter de supervision humaine pour annoter les exemples. Le système masque une partie de la donnée (par exemple, un mot dans une phrase) et s'entraîne à la prédire à partir du reste du contexte.
+- *Automatisation* : Exécution automatique de tâches répétitives, prévisibles et prédéfinies par des règles logiques ou des modèles IA sans impliquer l'intervention humaine à chaque étape. L'automatisation vise ainsi à accélérer les processus, réduire les erreurs manuelles et optimiser les vitesses de traintement.
+- *Autonomie* :  Capacité d'un système ou d'un agent à prendre des décisions complexes et s'adapter en temps réel pour remplir un objectif global, sans programmation explicite ni action humaine continue. 
+- *Base de données* : Ensemble structuré d'informations et de données stockées de manière organisée dans un système informatique, permettant une consultation, une MAJ et une gestion rapide. EN IA, fournissent également la matière première nécessaire à l'entraînement des modèles, à la sauvegarde de leur historique et au stockage de leurs connaissances.
+- *Bulle IA* : Situation économique où les investissements financiers et la valorisation des entreprises du secteur IA dépassent largement leur rentabilité réelle. Alimenté par l'engouement médiatique et la peur de rater une opportunité, ce phénomène crée une surévaluation des acteurs du marché, au risque d'un ajustement brutal (éclatement) si les retours sur investissement ne sont pas à la hauteur des attentes.
+- *Capacité* : Mesure de la quantité d'informations, de patterns et de représentations complexes qu'un modèle IA est en mesure d'apprendre et de stocker. Elle est principalement déterminée par l'architecture du RSO et son nombre de paramètres : une capacité élevée permet de résoudre des tâches complexes, mais augmente le risque d'overfitting (surapprentissage) ou requiert plus de données et de puissance de calcul.
+- *CUDA* : Compute Unified Device Architecture - Plateforme de calcul parallèle et modèle de programmation développés par NVIDIA. CUDA permet aux devs de d'employer la puissance de calcul brute des GPU NVIDIA pour effectuer des calculs scientifiques et mathématiques complexes de manière accélérée, servant de fait d'infrastructure logicielle clef pour la plupart des framework d'IA moderne.
+- *Cyber-attaque par IA* : 
+- *Danger* : 
+- *Deep Learning * : Sous-branche du machine learning. S'inspire de la structure du cerveau humain, fondée sur le réseau neuronal. Permet d'extraire et comprendre automatiquement des représentations complexes et abstraites à partir de données brutes (sons, images, textes) sans extraction de caractéristiques par un humain
+- *Distillation* : Technique de compression d'un modèle IA consistant à transférer le savoir d'un grand modèle entraîné (appelé maître/teacher) vers un modèle plus petit et rapide (dit élève/student). L'élève apprend à reproduire les prédictions et comportement du maître, obtenant des perfs proches tout en requierant bien moins de mémoires et de puissance de calcul lors de l'inférence.
+- *Ecoute* : Domaine de l'IA regroupant les technologies permettant à un système de capturer traiter et analyser des signaux sonores ou de la parole humaine. En pratique, couvre la transcription audio en texte (Speech-to-text), l'identification des locuteurs, l'analyse des émotions ou la séparation de sources audio dans un environnement bruyant.
+- *Environnement* : 
+- *Framework* : Ensemble d'outils logiciels, de bibliothèques et de fonctions pré-structurées qui simplifie la création, le training et le déploiement de modèles IA. Au lieu de programmer les calculs mathématiques et les RSO neuronaux *from scraps*, les devs emploient un framework fournissant les éléments de base et optimise automatiquement la réalisation des calculs sur les composants matériels (CPU, GPU, TPU).
+- *Frontière (Modèle)* :  
+- *Génératif* :  
+- *Gouvernance* :
+- *GPU* : Graphic Processing Unit - En IA, composant vital servant à l'exécution des calculs  complexes  
+- *Hallucination* : Phénomène par lequel un modèle IA produit une réponse concrètement fausse ou incohérente, mais en la présentant de manière convaincante. Survient généralement lorsque le modèle comble ses lacunes en voulant prédire les mots les plus probables plutôt qu'en vérifiant les faits.
+- *Harnais* :  
+- *HuggingFace* :  
+- *Inférence* : Phase au cours de laquelle un modèle IA déjà entraîné utilise ses apprentissages pour traiter de nouvelles données et générer un résultat. Contrairement à la phase d'entraînement demandant de très lourdes ressources de calcul, l'inférence correspond à l'utilisation concrète du modèle de production.
+- *Injection* :  
+- *Invasif* :  
+- *Limite* :  
+- *LLAMA* :  
+- *LLM* : Large Language Model - Modèle d'IA fondée sur le Deep Learning et entraînée sur de vastes volumes de textes. Sa fonction première est de comprendre, manipuler et générer le langage naturel en prédisant la suite de mots la plus probable dans un contexte donné.
+- *Machine learning* : Branche IA permettant à un ordinateur d'apprendre à exécuter une tâche ou faire une prédiction à partir de données. En analysant des patterns dans un set de données, le système affine ses algorithmes pour améliorer ses performances.
+- *Mathématique* : 
+- *Mémoire Unifiée* : 
+- *Modèle* : Fichier ou programme résultant de l'entraînement d'un algorithme sur un set de données. Le modèle contient la structure (couches) et l'ensemble des paramètres (poids et biais) appris permettant d'analyser les entrées et exécuter les tâches pour lesquelles elles ont été conçues.
+- *NVIDIA* : 
+- *OpenClaw* :   
+- *Open Router* :  
+- *Paramètre* : Toutes les variables internes qu'un modèle IA apprend et ajuste de manière autonome dans sa phase d'entraînement. Ces valeurs déterminent la façon dont le RSO transforme les données d'entrées pour produire une prédiction ou un résultat. Le nb de paramètres donne une indication directe de la taille, la capacité de stockage et la complexité du modèle.
+- *Poids* : Valeur numérique ajustable assignée à une connexion entre deux neurones artificiels d'un RSO. Lors de l'entraînement d'un modèle IA, sont progressivement modifiés pour ajuster l'importance des données transmises entre les couches. L'ensemble des poids d'un modèle constitue ses paramètres : C'est précisement là qu'est stocké "l'apprentissage du système".
+- *Pre-trained* :  
+- *Prompt* : Une instruction ou un texte fourni en entrée à un modèle IA pour guider sa réponse. Il définit le contexte, le rôle, le ton ou la tâche spécifique à exécuter. La qualité et la précision de la réponse relève directement de la structure du prompt.
+- *RAG* : Retrieval-Augmented Generation / Génération augmentée par récupération - Technique visant à enrichir les réponses d'un LLM en le liant à des sources d'informations externes vérifiées (database, WEB,etc...). 
+- *RAM/DRAM* : (Dynamic) Random Access Memory - Mémoire Vive d'un système informatique, employée pour stocker **temporairement** des données et instructions. Volatile, donc son contenu est effacé à l'extinction de l'appareil (Voir avant avec la fermeture d'un programme). Une capacité élevée est requise en IA pour charger de grands set de données et exécuter des traitements préliminaires avant envoi aux processeurs spécialisés. La DRAM est le type de RAM le plus courant en IA, constituée de condensateurs rafraîchis électriquement des milliers de fois par seconde pour conserver les data. Constitue la mémoire système principale des ordinateurs et servers d'IA training.
+- *Réseau Neuronal* : Modèle d'architecture logicielle basée sur la structure du cerveau humain. Composés de noeuds interconnectés, il se répartit en trois couches : Une d'entrée, une (ou plusieurs) cachées, et une de sortie. Chaque connexion possède un poids qui s'ajuste à l'apprentissage, permettant au RSO de détecter des motifs complexes et traiter des tâches avancées.
+- *Robotisation* :  
+- *Singularité Technologique* :  
+- *SLOP* : S'apparenterait à du spam, version produit IA. Une génération massive et cheap de contenu daubesque (image, texte, vidéo, etc...) et publié sur le web sans contrôle éditorial, dans le but de capter attention et générer des revenus publicitaires.
+- *Souveraineté* :  
+- *Super-intelligence* :  
+- *Token* : Unité de base dans laquelle un modèle de traitement du language décompose un texte pour le traiter numériquement. En moyenne, 1 token correspond à 4 caractères. Ils servent aussi à mesurer la taille du contexte d'un modèle et la tarification des accès par API.
+- *TPU* : Tensor Processing Unit - Circuit propre à Google, spécifiquement dédiée à l'accélération du learning des IA. S'oppose aux GPU, qui sont des puces polyvalentes.
+- *Transformer* : Architecture neuronale devenue le standard du deep learning pour le traitement du language naturel et de la vision par ordinateur. Reposant sur un mécanisme *Self-attention*, permet au modèle de peser l'importance de chaque mot d'un texte.
+- *Vérification* :  
+- *Wikipédia* :  
