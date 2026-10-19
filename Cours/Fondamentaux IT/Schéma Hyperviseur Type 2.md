@@ -2,9 +2,6 @@
 
 ```text
 +----------------------------------+
-| Applications Utilisateur         |
-| (Navigateur, Office, Jeux, etc.) |
-+----------------------------------+
 | Système d'exploitation Hôte      |
 | (Windows, Linux, macOS)          |
 +----------------------------------+
