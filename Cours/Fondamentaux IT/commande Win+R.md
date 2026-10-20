@@ -1,7 +1,0 @@
-### Apres WIN+R: ###
-
-- ncpa.cpl = RSO dans explorateur de fichier
-- control = panneau de config
-- appwiz.cpl = panneau de controle app
-- cmd
-- regedit = editeur de registre
