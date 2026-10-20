@@ -12,29 +12,29 @@
 - *Bulle IA* : Situation économique où les investissements financiers et la valorisation des entreprises du secteur IA dépassent largement leur rentabilité réelle. Alimenté par l'engouement médiatique et la peur de rater une opportunité, ce phénomène crée une surévaluation des acteurs du marché, au risque d'un ajustement brutal (éclatement) si les retours sur investissement ne sont pas à la hauteur des attentes.
 - *Capacité* : Mesure de la quantité d'informations, de patterns et de représentations complexes qu'un modèle IA est en mesure d'apprendre et de stocker. Elle est principalement déterminée par l'architecture du RSO et son nombre de paramètres : une capacité élevée permet de résoudre des tâches complexes, mais augmente le risque d'overfitting (surapprentissage) ou requiert plus de données et de puissance de calcul.
 - *CUDA* : Compute Unified Device Architecture - Plateforme de calcul parallèle et modèle de programmation développés par NVIDIA. CUDA permet aux devs de d'employer la puissance de calcul brute des GPU NVIDIA pour effectuer des calculs scientifiques et mathématiques complexes de manière accélérée, servant de fait d'infrastructure logicielle clef pour la plupart des framework d'IA moderne.
-- *Cyber-attaque par IA* : 
-- *Danger* : 
+- *Cyber-attaque par IA* : à l'instar d'une Cyber-attaque standard, il s'agit cette fois d'affiner les techniques d'attaques et d'approches par le biais de l'IA. On y trouve notamment le phishing (qui permet de construire des phrases sans fautes, et les rendre plus formelles), le deepfake vocal (qui facilite le contact et démarchage), génération de Malware, etc...
+- *Danger* : Les dangers de l'IA sont presqu'infinis selon l'appréciation et les mesures prises. On peut parler du risque de décalage entre progrès technologique et capacité humaine à l'encadrer. Parmi les principaux dangers, on a un accroissement de la manipulation de l'information, une hausse de la cybercriminalité, une **claire** dépendance intellectuelle, un lourd impact sur l'emploi, et nombres autres encore. Mais le plus sous-estimé est une érosion dramatique de la confiance (ne plus savoir si une photo est réelle, douter d'un appel téléphonique, remettre en cause l'authenticité de preuves numériques)
 - *Deep Learning * : Sous-branche du machine learning. S'inspire de la structure du cerveau humain, fondée sur le réseau neuronal. Permet d'extraire et comprendre automatiquement des représentations complexes et abstraites à partir de données brutes (sons, images, textes) sans extraction de caractéristiques par un humain
 - *Distillation* : Technique de compression d'un modèle IA consistant à transférer le savoir d'un grand modèle entraîné (appelé maître/teacher) vers un modèle plus petit et rapide (dit élève/student). L'élève apprend à reproduire les prédictions et comportement du maître, obtenant des perfs proches tout en requierant bien moins de mémoires et de puissance de calcul lors de l'inférence.
 - *Ecoute* : Domaine de l'IA regroupant les technologies permettant à un système de capturer traiter et analyser des signaux sonores ou de la parole humaine. En pratique, couvre la transcription audio en texte (Speech-to-text), l'identification des locuteurs, l'analyse des émotions ou la séparation de sources audio dans un environnement bruyant.
-- *Environnement* : 
+- *Environment* : Cadre dans lequel évolue un agent. Inclue les données d'entrée, les users, les objets, les règles et évènements qui influent sur ses décisions et actions.
 - *Framework* : Ensemble d'outils logiciels, de bibliothèques et de fonctions pré-structurées qui simplifie la création, le training et le déploiement de modèles IA. Au lieu de programmer les calculs mathématiques et les RSO neuronaux *from scraps*, les devs emploient un framework fournissant les éléments de base et optimise automatiquement la réalisation des calculs sur les composants matériels (CPU, GPU, TPU).
 - *Frontière (Modèle)* :  
 - *Génératif* :  
-- *Gouvernance* :
+- *Gouvernance* : Au sens global, c'est le cadre organisationnel définissant la manière dont une IA est développée, supervisée et utilisée de manière responsable.
 - *GPU* : Graphic Processing Unit - En IA, composant vital servant à l'exécution des calculs  complexes  
 - *Hallucination* : Phénomène par lequel un modèle IA produit une réponse concrètement fausse ou incohérente, mais en la présentant de manière convaincante. Survient généralement lorsque le modèle comble ses lacunes en voulant prédire les mots les plus probables plutôt qu'en vérifiant les faits.
 - *Harnais* :  
-- *HuggingFace* :  
+- *HuggingFace* : Une plateforme OpenSource permettant l'accès à des modèles, des sets de data et des outils de developpement pour IA. **Analogie** : Si GitHub est la plateforme de référence pour partager du code, alors Hugging Face est souvent considéré comme le GitHub de l'IA, car il centralise modèles, données et projets collaboratifs
 - *Inférence* : Phase au cours de laquelle un modèle IA déjà entraîné utilise ses apprentissages pour traiter de nouvelles données et générer un résultat. Contrairement à la phase d'entraînement demandant de très lourdes ressources de calcul, l'inférence correspond à l'utilisation concrète du modèle de production.
-- *Injection* :  
+- *Injection* : introduction d'une donnée, d'une information ou d'une instruction dans un système informatique ou d'IA afin d'influencer son fonctionnement ou ses résultats.
 - *Invasif* :  
 - *Limite* :  
-- *LLAMA* :  
+- *LLaMa* : Large Language Model Meta AI - modèle de langage développé par Meta, utilisé pour comprendre et générer du texte dans des applications d'IA générative.
 - *LLM* : Large Language Model - Modèle d'IA fondée sur le Deep Learning et entraînée sur de vastes volumes de textes. Sa fonction première est de comprendre, manipuler et générer le langage naturel en prédisant la suite de mots la plus probable dans un contexte donné.
 - *Machine learning* : Branche IA permettant à un ordinateur d'apprendre à exécuter une tâche ou faire une prédiction à partir de données. En analysant des patterns dans un set de données, le système affine ses algorithmes pour améliorer ses performances.
 - *Mathématique* : 
-- *Mémoire Unifiée* : 
+- *Mémoire Unifiée* : système permettant à une IA de regrouper et d'exploiter de manière cohérente les informations provenant de différentes sources et interactions afin d'améliorer sa compréhension et la continuité de ses réponses.
 - *Modèle* : Fichier ou programme résultant de l'entraînement d'un algorithme sur un set de données. Le modèle contient la structure (couches) et l'ensemble des paramètres (poids et biais) appris permettant d'analyser les entrées et exécuter les tâches pour lesquelles elles ont été conçues.
 - *NVIDIA* : 
 - *OpenClaw* :   
