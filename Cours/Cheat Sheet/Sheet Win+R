@@ -48,7 +48,7 @@ sfc /scannow
 
 # ⚙️ Administration système
 
-### Gestion de l'ordinateur
+### Gestion centralisée de l'ordinateur
 
 ```text
 compmgmt.msc
@@ -77,6 +77,7 @@ regedit
 ```text
 gpedit.msc
 ```
+
 ### Éditeur de stratégie de sécurité locale
 
 ```text
@@ -138,6 +139,11 @@ diskmgmt.msc
 cleanmgr
 ```
 
+### Défragmentation de données
+
+```text
+dfrgui
+```
 ### Nettoyage de logiciel malveillants
 
 ```text
@@ -154,7 +160,7 @@ mrt
 ncpa.cpl
 ```
 
-### Bureau à distance
+### Bureau à distance (RDP)
 
 ```text
 mstsc
@@ -355,10 +361,6 @@ snippingtool
 charmap
 ```
 
----
-
-# ♿ Accessibilité
-
 ### Loupe
 
 ```text
@@ -373,24 +375,17 @@ osk
 
 ---
 
-# ⭐ Top 10 à connaître par cœur pour un technicien
+# ⭐ Better Be known
 
 ### Gestionnaire des tâches
 
 ```text
 taskmgr
 ```
-
-### Gestionnaire de périphériques
-
-```text
-devmgmt.msc
-```
-
-### Gestion des disques
+### Gestion centralisée de l'ordinateur
 
 ```text
-diskmgmt.msc
+compmgmt.msc
 ```
 
 ### Services
@@ -429,8 +424,8 @@ regedit
 ncpa.cpl
 ```
 
-### Dossier Temporaire
+### Observateur d'événements
 
 ```text
-%temp%
+eventvwr.msc
 ```
