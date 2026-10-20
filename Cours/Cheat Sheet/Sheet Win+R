@@ -110,6 +110,11 @@ control userpasswords2
 ```text
 lusrmgr.msc
 ```
+### Informations systèmes
+
+```text
+msinfo32
+```
 
 ---
 
