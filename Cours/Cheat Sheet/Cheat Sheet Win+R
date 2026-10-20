@@ -1,0 +1,364 @@
+# Cheat Sheet - Commandes Win + R
+
+## Qu'est-ce que Win + R ?
+
+Ouvre la fenêtre **Exécuter**, permettant de lancer rapidement des outils Windows, des consoles d'administration et des dossiers système.
+
+```text
+Win + R
+```
+
+---
+
+# 📂 Explorateur et dossiers
+
+## Dossiers utilisateur
+
+```text
+.
+```
+Dossier courant
+
+```text
+..
+```
+Dossier parent
+
+```text
+%userprofile%
+```
+Profil utilisateur
+
+```text
+%appdata%
+```
+AppData\Roaming
+
+```text
+%localappdata%
+```
+AppData\Local
+
+```text
+%temp%
+```
+Fichiers temporaires utilisateur
+
+```text
+temp
+```
+Fichiers temporaires système
+
+```text
+downloads
+```
+Téléchargements
+
+```text
+documents
+```
+Documents
+
+```text
+desktop
+```
+Bureau
+
+---
+
+# ⚙️ Outils système essentiels
+
+```text
+control
+```
+Panneau de configuration
+
+```text
+settings:
+```
+Paramètres Windows
+
+```text
+msinfo32
+```
+Informations système
+
+```text
+dxdiag
+```
+Diagnostic DirectX
+
+```text
+taskmgr
+```
+Gestionnaire des tâches
+
+```text
+eventvwr
+```
+Observateur d'événements
+
+```text
+services.msc
+```
+Gestionnaire des services
+
+```text
+compmgmt.msc
+```
+Gestion de l'ordinateur
+
+```text
+devmgmt.msc
+```
+Gestionnaire de périphériques
+
+```text
+diskmgmt.msc
+```
+Gestion des disques
+
+```text
+cleanmgr
+```
+Nettoyage de disque
+
+---
+
+# 🌐 Réseau
+
+```text
+ncpa.cpl
+```
+Connexions réseau
+
+```text
+firewall.cpl
+```
+Pare-feu Windows
+
+```text
+inetcpl.cpl
+```
+Options Internet
+
+```text
+cmd
+```
+Invite de commandes
+
+```text
+powershell
+```
+PowerShell
+
+```text
+wt
+```
+Windows Terminal
+
+---
+
+# 👥 Gestion des utilisateurs
+
+```text
+netplwiz
+```
+Gestion avancée des comptes
+
+```text
+lusrmgr.msc
+```
+Utilisateurs et groupes locaux
+(*Windows Pro uniquement*)
+
+```text
+control userpasswords2
+```
+Gestion avancée des comptes
+
+---
+
+# 🔒 Sécurité
+
+```text
+secpol.msc
+```
+Stratégie de sécurité locale
+(*Windows Pro/Entreprise*)
+
+```text
+wf.msc
+```
+Pare-feu avancé
+
+```text
+certmgr.msc
+```
+Gestion des certificats
+
+---
+
+# 💾 Stockage et maintenance
+
+```text
+dfrgui
+```
+Défragmentation des disques
+
+```text
+diskpart
+```
+Console de partitionnement
+
+```text
+resmon
+```
+Moniteur de ressources
+
+```text
+perfmon
+```
+Moniteur de performances
+
+---
+
+# 🖥️ Affichage et périphériques
+
+```text
+main.cpl
+```
+Paramètres de la souris
+
+```text
+control printers
+```
+Imprimantes
+
+```text
+mmsys.cpl
+```
+Paramètres audio
+
+```text
+desk.cpl
+```
+Affichage
+
+---
+
+# 🛠️ Outils d'administration
+
+```text
+gpedit.msc
+```
+Éditeur de stratégie de groupe
+(*Windows Pro/Entreprise*)
+
+```text
+rsop.msc
+```
+Jeu de stratégies résultant
+
+```text
+taskschd.msc
+```
+Planificateur de tâches
+
+```text
+fsmgmt.msc
+```
+Dossiers partagés
+
+```text
+regedit
+```
+Éditeur du Registre
+
+---
+
+# 🔍 Diagnostics
+
+```text
+msconfig
+```
+Configuration du système
+
+```text
+sigverif
+```
+Vérification des signatures
+
+```text
+verifier
+```
+Vérificateur de pilotes
+
+```text
+mdsched
+```
+Diagnostic mémoire Windows
+
+---
+
+# 🎓 Les commandes à connaître absolument
+
+## Administration
+
+```text
+services.msc
+devmgmt.msc
+diskmgmt.msc
+gpedit.msc
+regedit
+```
+
+## Dépannage
+
+```text
+msconfig
+eventvwr
+resmon
+dxdiag
+mdsched
+```
+
+## Réseau
+
+```text
+ncpa.cpl
+cmd
+powershell
+wf.msc
+```
+
+## Comptes utilisateurs
+
+```text
+netplwiz
+lusrmgr.msc
+```
+
+---
+
+# ⭐ Top 15 des commandes Win + R
+
+```text
+appwiz.cpl
+control
+taskmgr
+msconfig
+services.msc
+devmgmt.msc
+diskmgmt.msc
+eventvwr
+regedit
+netplwiz
+cmd
+powershell
+wt
+ncpa.cpl
+dxdiag
+```
+
+Ce sont les commandes les plus fréquemment utilisées par les techniciens, administrateurs système et formateurs Windows.
