@@ -1,364 +1,431 @@
-# Cheat Sheet - Commandes Win + R
+# ⌨️ Commandes Win + R classées par usage
 
-## Qu'est-ce que Win + R ?
+# 🔍 Diagnostic & Dépannage
 
-Ouvre la fenêtre **Exécuter**, permettant de lancer rapidement des outils Windows, des consoles d'administration et des dossiers système.
-
-```text
-Win + R
-```
-
----
-
-# 📂 Explorateur et dossiers
-
-## Dossiers utilisateur
-
-```text
-.
-```
-Dossier courant
-
-```text
-..
-```
-Dossier parent
-
-```text
-%userprofile%
-```
-Profil utilisateur
-
-```text
-%appdata%
-```
-AppData\Roaming
-
-```text
-%localappdata%
-```
-AppData\Local
-
-```text
-%temp%
-```
-Fichiers temporaires utilisateur
-
-```text
-temp
-```
-Fichiers temporaires système
-
-```text
-downloads
-```
-Téléchargements
-
-```text
-documents
-```
-Documents
-
-```text
-desktop
-```
-Bureau
-
----
-
-# ⚙️ Outils système essentiels
-
-```text
-control
-```
-Panneau de configuration
-
-```text
-settings:
-```
-Paramètres Windows
+### Informations système
 
 ```text
 msinfo32
 ```
-Informations système
+
+### Diagnostic DirectX
 
 ```text
 dxdiag
 ```
-Diagnostic DirectX
+
+### Observateur d'événements
+
+```text
+eventvwr.msc
+```
+
+### Moniteur de performances
+
+```text
+perfmon
+```
+
+### Moniteur de ressources
+
+```text
+resmon
+```
+
+### Gestionnaire des tâches
 
 ```text
 taskmgr
 ```
-Gestionnaire des tâches
+
+### Vérification des fichiers système
 
 ```text
-eventvwr
+sfc /scannow
 ```
-Observateur d'événements
 
-```text
-services.msc
-```
-Gestionnaire des services
+---
+
+# ⚙️ Administration système
+
+### Gestion de l'ordinateur
 
 ```text
 compmgmt.msc
 ```
-Gestion de l'ordinateur
+
+### Services Windows
 
 ```text
-devmgmt.msc
+services.msc
 ```
-Gestionnaire de périphériques
+
+### Configuration système
 
 ```text
-diskmgmt.msc
+msconfig
 ```
-Gestion des disques
+
+### Éditeur du Registre
 
 ```text
-cleanmgr
+regedit
 ```
-Nettoyage de disque
 
----
-
-# 🌐 Réseau
+### Éditeur de stratégie de groupe
 
 ```text
-ncpa.cpl
+gpedit.msc
 ```
-Connexions réseau
+### Éditeur de stratégie de sécurité locale
 
 ```text
-firewall.cpl
+secpol.msc
 ```
-Pare-feu Windows
+
+### Stratégie de sécurité locale
 
 ```text
-inetcpl.cpl
+secpol.msc
 ```
-Options Internet
-
-```text
-cmd
-```
-Invite de commandes
-
-```text
-powershell
-```
-PowerShell
-
-```text
-wt
-```
-Windows Terminal
 
 ---
 
 # 👥 Gestion des utilisateurs
 
+### Comptes utilisateurs avancés
+
 ```text
 netplwiz
 ```
-Gestion avancée des comptes
 
-```text
-lusrmgr.msc
-```
-Utilisateurs et groupes locaux
-(*Windows Pro uniquement*)
+### Gestion des comptes utilisateur
 
 ```text
 control userpasswords2
 ```
-Gestion avancée des comptes
 
----
-
-# 🔒 Sécurité
+### Utilisateurs et groupes locaux
 
 ```text
-secpol.msc
-```
-Stratégie de sécurité locale
-(*Windows Pro/Entreprise*)
-
-```text
-wf.msc
-```
-Pare-feu avancé
-
-```text
-certmgr.msc
-```
-Gestion des certificats
-
----
-
-# 💾 Stockage et maintenance
-
-```text
-dfrgui
-```
-Défragmentation des disques
-
-```text
-diskpart
-```
-Console de partitionnement
-
-```text
-resmon
-```
-Moniteur de ressources
-
-```text
-perfmon
-```
-Moniteur de performances
-
----
-
-# 🖥️ Affichage et périphériques
-
-```text
-main.cpl
-```
-Paramètres de la souris
-
-```text
-control printers
-```
-Imprimantes
-
-```text
-mmsys.cpl
-```
-Paramètres audio
-
-```text
-desk.cpl
-```
-Affichage
-
----
-
-# 🛠️ Outils d'administration
-
-```text
-gpedit.msc
-```
-Éditeur de stratégie de groupe
-(*Windows Pro/Entreprise*)
-
-```text
-rsop.msc
-```
-Jeu de stratégies résultant
-
-```text
-taskschd.msc
-```
-Planificateur de tâches
-
-```text
-fsmgmt.msc
-```
-Dossiers partagés
-
-```text
-regedit
-```
-Éditeur du Registre
-
----
-
-# 🔍 Diagnostics
-
-```text
-msconfig
-```
-Configuration du système
-
-```text
-sigverif
-```
-Vérification des signatures
-
-```text
-verifier
-```
-Vérificateur de pilotes
-
-```text
-mdsched
-```
-Diagnostic mémoire Windows
-
----
-
-# 🎓 Les commandes à connaître absolument
-
-## Administration
-
-```text
-services.msc
-devmgmt.msc
-diskmgmt.msc
-gpedit.msc
-regedit
-```
-
-## Dépannage
-
-```text
-msconfig
-eventvwr
-resmon
-dxdiag
-mdsched
-```
-
-## Réseau
-
-```text
-ncpa.cpl
-cmd
-powershell
-wf.msc
-```
-
-## Comptes utilisateurs
-
-```text
-netplwiz
 lusrmgr.msc
 ```
 
 ---
 
-# ⭐ Top 15 des commandes Win + R
+# 💾 Stockage & Matériel
+
+### Gestionnaire de périphériques
+
+```text
+devmgmt.msc
+```
+
+### Gestion des disques
+
+```text
+diskmgmt.msc
+```
+
+### Nettoyage de disque
+
+```text
+cleanmgr
+```
+
+### Nettoyage de logiciel malveillants
+
+```text
+mrt
+```
+
+---
+
+# 🌐 Réseau
+
+### Connexions réseau
+
+```text
+ncpa.cpl
+```
+
+### Bureau à distance
+
+```text
+mstsc
+```
+
+### Assistance à distance
+
+```text
+msra
+```
+
+### Pare-feu Windows
+
+```text
+firewall.cpl
+```
+
+### Pare-feu Windows avancé
+
+```text
+wf.msc
+```
+
+
+---
+
+# 🏠 Dossiers utiles
+
+### Temporaire utilisateur
+
+```text
+%temp%
+```
+
+### Profil utilisateur
+
+```text
+%userprofile%
+```
+
+### AppData (Roaming)
+
+```text
+%appdata%
+```
+
+### AppData (Local)
+
+```text
+%localappdata%
+```
+
+### Répertoire Windows
+
+```text
+%windir%
+```
+
+### Program Files
+
+```text
+%programfiles%
+```
+
+---
+
+# 🚀 Démarrage automatique
+
+### Démarrage utilisateur
+
+```text
+shell:startup
+```
+
+### Démarrage commun
+
+```text
+shell:common startup
+```
+
+---
+
+# 🔧 Panneau de configuration
+
+### Panneau de configuration
+
+```text
+control
+```
+
+### Programmes et fonctionnalités
 
 ```text
 appwiz.cpl
-control
-taskmgr
-msconfig
-services.msc
-devmgmt.msc
-diskmgmt.msc
-eventvwr
-regedit
-netplwiz
-cmd
-powershell
-wt
-ncpa.cpl
-dxdiag
 ```
 
-Ce sont les commandes les plus fréquemment utilisées par les techniciens, administrateurs système et formateurs Windows.
+### Propriétés système
+
+```text
+sysdm.cpl
+```
+
+### Options d'alimentation
+
+```text
+powercfg.cpl
+```
+
+### Date et heure
+
+```text
+timedate.cpl
+```
+
+### Souris
+
+```text
+main.cpl
+```
+
+### Clavier
+
+```text
+control keyboard
+```
+
+### Imprimantes
+
+```text
+control printers
+```
+
+---
+
+# 🛠️ Outils système
+
+### Invite de commandes
+
+```text
+cmd
+```
+
+### PowerShell
+
+```text
+powershell
+```
+
+### Windows Terminal
+
+```text
+wt
+```
+
+### Explorateur
+
+```text
+explorer
+```
+
+### Paramètres Windows
+
+```text
+ms-settings:
+```
+
+---
+
+# 🎨 Outils intégrés Windows
+
+### Bloc-notes
+
+```text
+notepad
+```
+
+### Calculatrice
+
+```text
+calc
+```
+
+### Paint
+
+```text
+mspaint
+```
+
+### Capture d'écran
+
+```text
+snippingtool
+```
+
+### Carte des caractères
+
+```text
+charmap
+```
+
+---
+
+# ♿ Accessibilité
+
+### Loupe
+
+```text
+magnify
+```
+
+### Clavier visuel
+
+```text
+osk
+```
+
+---
+
+# ⭐ Top 10 à connaître par cœur pour un technicien
+
+### Gestionnaire des tâches
+
+```text
+taskmgr
+```
+
+### Gestionnaire de périphériques
+
+```text
+devmgmt.msc
+```
+
+### Gestion des disques
+
+```text
+diskmgmt.msc
+```
+
+### Services
+
+```text
+services.msc
+```
+
+### Configuration système
+
+```text
+msconfig
+```
+
+### Observateur d'événements
+
+```text
+eventvwr.msc
+```
+
+### Informations système
+
+```text
+msinfo32
+```
+
+### Éditeur du Registre
+
+```text
+regedit
+```
+
+### Connexions réseau
+
+```text
+ncpa.cpl
+```
+
+### Dossier Temporaire
+
+```text
+%temp%
+```
