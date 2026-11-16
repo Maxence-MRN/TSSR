@@ -26,28 +26,60 @@ Application ou service numérique permetttant à de multiples users de :
   - Coordonner les activités, indépendamment de leur emplacement géographique*
 
 ### Piliers
-??????????
+- Communication Instantanée
+- Visio conférence et réunions
+- Partage et stockage de fichiers
+- Production documentaire collaborative
+- Organisation et gestion de projet
+- Gestion de connaissances et documentation
 
 ### Les familles de Services
-?????
+- Messagerie
+  - Echange d'Informations
+    - Exemples : Gmail, Outlook
+- Communication Instantanée
+  - Discution en équipe
+    - Exemples : Teams, Slack, Chat
+- Visio
+  - Organisation de réunions
+    - Exemples : Meet, Teams, Zoom
+- Stockage et partage
+  - Centraliser les fichiers
+    - Exemples : Drive, OneDrive
+- Production documentaire
+  - Créer et modifier des docs
+    - Exemples : Docs, Word, Excel
+- Gestion de Projets
+  - Organiser les tâches
+    - Exemples : Planner, Trello, Jira
+- Documentation
+  - Capitaliser les connaissances
+    - Exemples : SharePoint, Confluence, Notion
 
 ## Microsoft 365
 ### Un abonnement, des services
 Une licence active un ensemble de services. Principales composantes :
-  -   Outlook 
-  -   ????
-  -   ????
-  -   ????
-  -   ????
-  -   ????
+  -   Outlook : messagerie et calendrier
+  -   Teams : Communi° et réunion
+  -   OneDrive : Stockage Individuel
+  -   SharePoint : Espaces documentaires collectifs
+  -   Word : Traitement de texte
+  -   Excel : Tableurs
+  -   PowerPoint : Présentations
+  -   Exchange Online : Service de messagerie
+  -   Microsoft Entra ID : Gestion des identités et des accès
 
 ## Google Workspace
 Les composantes :
-  -  Gmail
-  -  Drive
-  -  ????
-  -  ????
-  -  ????
+  -  Gmail : messagerie
+  -  Drive : Stockage et partage
+  -  Docs : Traitement texte
+  -  Sheets : Tableurs
+  -  Slides : Présentations
+  -  Meet : Visio
+  -  Chat : Communication
+  -  Agenda : Calendrier
+  -  Console d'Administration : Gestion de l'environnement
 
 ## Solution OpenSource
 Une alternative aux suites propriétaires
