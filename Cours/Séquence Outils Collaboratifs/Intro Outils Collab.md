@@ -68,6 +68,7 @@ Une licence active un ensemble de services. Principales composantes :
   -   PowerPoint : Présentations
   -   Exchange Online : Service de messagerie
   -   Microsoft Entra ID : Gestion des identités et des accès
+  -   Centre d'administration 365 : Gestion environnement
 
 ## Google Workspace
 Les composantes :
@@ -99,23 +100,34 @@ Une alternative aux suites propriétaires
 ### Des exemples d'OpenSource
 - NextCloud
 - OnlyOffice
-- ???
+- CryptPad
+- Jitsi Meet
+- 
 ## Cloud
-Définition Cloud :???
+Définition Cloud : utilisation, via Internet, de ressources informatiques (servers, app, logiciels, stockage, ...) hébergées par un fournisseur distant plutôt que sur son propre hardware.
+
 ### Trois types de Cloud
-- Privé : Dit aussi "On premise", c'est un cloud physiquement à proximité.
-- Hybrid : ??
-- Public : ??
+- Privé : Dit aussi "On premise", c'est un cloud dédié a une seule orga, offrant davantage de contrôle et de sécu. Se situe parfois en proximité géographique.
+- Public : Cloud dont les services sont hébergés par un fournisseur externe et partagés entre plusieurs clients.
+- Hybrid : Un équilibre des deux. Par exemple, une entreprise stocke ses data sensibles sur un cloud privé ou ses propres servers, mais emploie 365 et Azure pour la messagerie, le partage de fichiers et l'hébergement de certaines applis.
 
 ### Trois types de services
-- IaaS : Infrastructure As A Service. Le plus onéreux, apporte les infrastructures à la demande, telles les VM, le stockage, et le réseau fourni par le Cloud.  
-Un Contrôle élevé, l'entreprise gère l'OS, les applis et la config.  
-Flexibilité Maximale, parfaite pour la migration de servers ou les environnements personnalisés.
+- IaaS : Infrastructure As A Service. Le plus onéreux, apporte les infrastructures à la demande, telles les VM, le stockage, et le réseau fourni par le Cloud.
+  - Exemple : louer une VM sur Azure et y installer AD, WDS, ...
 - PaaS : Platform As A Service. Fourni des Services avec OS intégrés. Mais les machines users sont a charge de l'entreprise.
-- SaaS : Software As A Service. Le moins onéreux, ne fournit que les applications (Suite 365, etc...)
+  - Exemple : Développer une Appli Web et la déployer sur Azure App Service sans avoir à gérer le server
+- SaaS : Software As A Service. Le moins onéreux, ne fournit que les applications
+  - Exemple : Suite Office 365
 
 ## A retenir
 - CLOUD implique **"responsabilité partagée"**
+| Éditeur | Entreprise / administrateur |
+|----------|---------------------------|
+| Infrastructure physique | Gestion des identités |
+| Hébergement du service | Attribution des licences |
+| Maintenance de la plateforme | Configuration des accès |
+| Disponibilité du service selon les engagements | Politiques de sécurité |
+| Évolution du service | Gouvernance des données |
 - Il ne fait pas disparaître le travail informatique : il déplace une partie des responsabiltiés vers le fournisseur
 - ????????
 
