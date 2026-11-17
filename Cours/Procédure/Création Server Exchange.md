@@ -25,54 +25,55 @@ Le DNS préféré sera **L'@IP du DC-Server**
 
 ## Situation et Installation
 
-SUR L'AD (Windows Server 2025) :
+### SUR L'AD (Windows Server 2025) :
 
 Nom serveur + IP fixée
 Prérequis : ADDS + DNS -> Promu contrôleur de domaine et zone inversée faite
 
 Carte réseau : NAT
 
-1) Avec la console PowerShell taper la commande suivante : Install-WindowsFeature RSAT-ADDS
+1) Win+R > SCONFIG : Bloquer toutes les mises à jour depuis Windows Update
+   
+2) Avec la console PowerShell taper la commande suivante : Install-WindowsFeature RSAT-ADDS
 
-1') SCONFIG : Bloquer toutes les mises à jour depuis Windows Update
+3) Installer vcredist_x64
 
-2) Installer VC++ 2012 x64 (vcredist_x64) et VC++ 2013 x64, puis redémarrer
-   (.NET 4.8.1 est déjà intégré à WS2025 : rien à installer)
+4) Télécharger l'ISO Exchange Server SE (ExchangeServerSE-x64.iso, RTM 15.2.2562.17) et le coller sur le bureau du Server
 
-3) Télécharger l'ISO Exchange Server SE (ExchangeServerSE-x64.iso, RTM 15.2.2562.17)
-   et l'extraire dans E:\exchange
+5) - Double clic sur l'Iso > Le lecteur de DVD virtuel s'ouvre en lecteur E:/
+     - Aller dans la barre URL de l'explorateur, entrer "CMD"
+       - Le cmd s'ouvre en E:\>
 
-4) Ouvrir la console CMD (en administrateur, avec un compte membre de Schema Admins
-   et Enterprise Admins) et se placer dans le dossier E:\exchange
-
-5) Taper les trois commandes suivantes :
-
-Serv2025
+6) Taper les trois commandes suivantes (*PAS SIMULTANEMENT*) :
 
 Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
-Setup.exe /PrepareAD /OrganizationName:"vincent" /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
+Setup.exe /PrepareAD /OrganizationName:"**NomDeDomaine**" /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
 Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
 
 -----------------------------------------------------------------------------
 
-SUR LE SERVEUR EXCHANGE (Windows Server 2025) :
+### SUR LE SERVEUR EXCHANGE (Windows Server 2025) :
 
-1) Nom serveur + IP fixée, serveur joint au domaine, carte en NAT
+Nom serveur + IP fixée, serveur joint au domaine, carte en NAT
 
-1') SCONFIG : Bloquer toutes les mises à jour depuis Windows Update
+1) Win+R > SCONFIG : Bloquer toutes les mises à jour depuis Windows Update
 
-2) Installer le vcredist 2012 x64 puis le vcredist 2013 x64
-   (.NET 4.8.1 est déjà intégré à WS2025 : rien à installer)
+2) Installer vcredist_x64
 
-3) Installer le module IIS URL Rewrite (rewrite_amd64), puis redémarrer
+3) Executer le UcmaRuntimeSetup
 
-4) Extraire l'ISO Exchange SE dans C:\exchange (ou la monter)
+4) Télécharger l'ISO Exchange Server SE et le coller sur le bureau du Server
 
-5) Ouvrir la console CMD en administrateur, se placer dans E:\exchange
-   et lancer l'installation (les rôles Windows nécessaires sont ajoutés par le setup) :
+5) - Double clic sur l'Iso > Le lecteur de DVD virtuel s'ouvre en lecteur E:/
+     - Aller dans la barre URL de l'explorateur, entrer "CMD"
+       - Le cmd s'ouvre en E:\> et lancer l'installation (les rôles Windows nécessaires sont ajoutés par le setup) :
+         - Setup.exe /Mode:Install /Roles:Mailbox /InstallWindowsComponents /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
+       - **SI LE SCRIPT AFFICHE TOUTE UNE LISTE DE MESSAGES D'ERREURS, SE DECONNECTER ET SE RECONNECTER EN ADMIN DOMAINE, PUIS RELANCER LE SCRIPT**
+   - Echec à l'analyse des éléments préalable. (*C'est normal*)
+     - Lancer le rewrite_amd64
+       - Installer
 
-Setup.exe /Mode:Install /Roles:Mailbox /InstallWindowsComponents /IAcceptExchangeServerLicenseTerms_DiagnosticDataON
+6) Dans le fichier ISO, lancer manuellement le Setup
+  - à l'issue des analyses préalables, lancer l'installation
 
-6) Redémarrer le serveur
-
-7) Installer la dernière mise à jour de sécurité Exchange SE (SU), lancée en administrateur
+7)  Redémarrer le serveur
