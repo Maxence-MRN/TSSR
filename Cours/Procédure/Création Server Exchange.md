@@ -11,7 +11,7 @@
 - DNS
   - Paramétrer Zone inversée
     -     - Reboot
-**Créer un user** (GRP : Admin)
+**Créer un user** (GRP : AdminDomain)
 
 ## Sur un Deuxième WinServ
 
@@ -25,7 +25,7 @@ Le DNS préféré sera **L'@IP du DC-Server**
 
 ## Situation et Installation
 
-### SUR L'AD (Windows Server 2025) :
+### Sur DC (Windows Server 2025) :
 
 Nom serveur + IP fixée
 Prérequis : ADDS + DNS -> Promu contrôleur de domaine et zone inversée faite
@@ -73,7 +73,20 @@ Nom serveur + IP fixée, serveur joint au domaine, carte en NAT
      - Lancer le rewrite_amd64
        - Installer
 
-6) Dans le fichier ISO, lancer manuellement le Setup
+6) Dans le fichier ISO, lancer manuellement le Setup.exe
   - à l'issue des analyses préalables, lancer l'installation
 
-7)  Redémarrer le serveur
+7) En parallèle, créer un ou deux users sur l'AD du DC.
+
+8)  Redémarrer le serveur Exchange.
+
+9) Installation terminée, lancer l'ECP.
+    - https://IPSERVER/ECP
+      - se connecter en Admin : compteadmin@nomdomaine
+        - attribution du fuseau horaire
+          - Accès à l'interface d'admin
+    
+10) Sur le Navigateur Internet, accéder à l'OWA.
+    - https://IPSERVER/OWA
+      - se connecter en Admin : compteadmin@nomdomaine
+        - accès à la boîte via client Outlook
