@@ -104,3 +104,38 @@
           - a2dissite 000-default.conf
           - a2ensite glpi.conf
           - systemctl restart apache2 mariadb.service
+
+## Basculer sur un explorateur Internet
+
+Url : @IPserverGLPI/glpi
+- Débuter le menu d'installation
+  - Langue
+  - CNU > OK
+  - ETAPE 0
+    - "INSTALLER"
+    - Continuer
+  - ETAPE 1
+    - SERVER SQL : localhost
+    - USER SQL : user utilisé lors de l'installation MariaDB
+    - PWD : pwd utilisé lors de l'installation MariaDB
+  - ETAPE 2
+    - Utiliser une base existante
+      - GLPI
+  - ETAPE 3
+    - Continuer
+  - ETAPE 4
+    - Continuer
+  - ETAPE 5
+    - Continuer
+  - ETAPE 6
+    - Utiliser GLPI
+- Se connecter à GLPI avec un compte par défaut
+
+| Outil                 | Adresse ou compte      | Remarque                                                      |
+|-----------------------|------------------------|---------------------------------------------------------------|
+| GLPI (interface web)  | `http://<serveur-glpi>/` | Utiliser HTTPS si le serveur web est configuré avec un certificat |
+| Super-administrateur  | `glpi / glpi`          | Compte créé à l'installation : son mot de passe est changé au bloc 4 |
+| Technicien            | `tech / tech`          | Compte de démonstration, profil Technicien                    |
+| Demandeur             | `post-only / postonly` | Compte de démonstration, profil Self-Service                  |
+
+BIENVENUE SUR GLPI
